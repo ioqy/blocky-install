@@ -4,7 +4,7 @@
 ## Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ioqy/blocky-install/master/install.sh | sudo sh
+curl -fsSL https://raw.githubusercontent.com/ioqy/blocky-install/master/install.sh | sudo bash
 ```
 
 ## Uninstall
