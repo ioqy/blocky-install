@@ -6,9 +6,8 @@ if [ "$(whoami)" != "root" ]; then
 fi
 
 if [[ -z $(which jq) || -z $(which curl) ]]; then
-  apt update --quiet=3
-  apt upgrade -y --quiet=2
-  apt install -y --quiet=2 curl jq
+  apt-get update --quiet=3
+  apt-get install -y --quiet=2 curl jq
 fi
 
 systemctl disable --now systemd-resolved.service
