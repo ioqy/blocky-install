@@ -127,6 +127,8 @@ queryLog:
   type: none
 
 port: 53
+
+logLevel: error
 EOF
 
 fi
