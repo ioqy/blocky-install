@@ -7,6 +7,12 @@
 curl -fsSL https://raw.githubusercontent.com/ioqy/blocky-install/master/install.sh | sudo bash
 ```
 
+or
+
+```bash
+wget -q -O- https://raw.githubusercontent.com/ioqy/blocky-install/master/install.sh | sudo bash
+```
+
 ## Uninstall
 
 ```bash
