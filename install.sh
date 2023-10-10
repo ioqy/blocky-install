@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 if [ "$(whoami)" != "root" ]; then
   echo "Script must be run as root."
@@ -150,7 +150,7 @@ systemctl daemon-reload
 systemctl enable --now blocky.service
 
 cat << EOF > /usr/local/bin/uninstall-blocky.sh
-#!/bin/bash
+#!/usr/bin/env bash
 if [ "\$(whoami)" != "root" ]; then
   echo "Script must be run as root."
   exit 1
